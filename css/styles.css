@@ -1,0 +1,213 @@
+:root {
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-white: #ffffff;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--color-white);
+  color: var(--color-slate);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+/* header */
+.header-logo,
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-iris);
+}
+
+.header-address {
+  font-style: normal;
+}
+.header-mail-list,
+.header-tel-list {
+  line-height: 1.5;
+}
+.header-mail-list :hover,
+.header-mail-list :focus {
+  color: var(--color-ocean);
+}
+.header-tel-list :hover,
+.header-tel-list :focus {
+  color: var(--color-ocean);
+}
+.header-item :hover,
+.header-item :focus {
+  color: var(--color-ocean);
+}
+.hero-button:hover,
+.hero-button:focus {
+  background: var(--color-ocean);
+}
+.fil-btn:hover,
+.fil-btn:focus {
+  color: var(--color-white);
+  background: var(--color-ocean);
+}
+.studio-logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--color-navy-blue);
+  text-transform: uppercase;
+}
+.footer-studio-logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--color-cloud);
+  text-transform: uppercase;
+}
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-grey);
+}
+.head-mail,
+.head-tel {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+/* hero */
+.hero {
+  background-color: var(--color-grey);
+}
+.hero-button {
+  font-family: inherit;
+  background: var(--color-iris);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+  cursor: pointer;
+}
+.hero-logo {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--color-white);
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+/* section 1 */
+.main-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--color-navy-blue);
+  letter-spacing: 0.02em;
+}
+.subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+.subtitle-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-navy-blue);
+}
+.subject {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+.footer-box {
+  background-color: var(--color-navy-blue);
+}
+
+.name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+.profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-cornflower);
+  background-color: var(--color-navy-blue);
+}
+.team-section {
+  background-color: var(--color-cloud);
+}
+.team-picture {
+  background-color: var(--color-white);
+}
+/**------ portfolio */
+.fil-btn {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-iris);
+  background-color: var(--color-cloud);
+  cursor: pointer;
+}
+
+.project-card-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+.project-card-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
