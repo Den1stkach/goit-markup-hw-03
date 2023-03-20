@@ -11,7 +11,26 @@
   --color-grey: #2e2f42;
   --color-white: #ffffff;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+button {
+  cursor: pointer;
+}
 
+img {
+  display: block;
+}
 .body {
   font-family: "Roboto", sans-serif;
   background-color: var(--color-white);
@@ -24,7 +43,56 @@
   list-style: none;
 }
 
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  width: 1440px;
+  height: 72px;
+}
+.header-nav {
+  display: flex;
+}
+
+.header-main {
+  width: 115px;
+  height: 24px;
+  left: 156px;
+  top: 24px;
+}
+.hero {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  text-align: center;
+}
+.menu-nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.address-list {
+  display: flex;
+  font-style: normal;
+}
+.header-address {
+  margin-left: auto;
+}
+.address-list {
+  gap: 40px;
+}
 /* header */
+.header-logo {
+  margin-right: 76px;
+}
+
 .header-logo,
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -37,9 +105,6 @@
   color: var(--color-iris);
 }
 
-.header-address {
-  font-style: normal;
-}
 .header-mail-list,
 .header-tel-list {
   line-height: 1.5;
@@ -99,8 +164,10 @@
   color: var(--color-slate);
 }
 /* hero */
+
 .hero {
   background-color: var(--color-grey);
+  text-align: center;
 }
 .hero-button {
   font-family: inherit;
@@ -110,7 +177,6 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-white);
-  cursor: pointer;
 }
 .hero-logo {
   font-weight: 700;
@@ -119,6 +185,7 @@
   color: var(--color-white);
   letter-spacing: 0.02em;
   text-align: center;
+  max-width: 496px;
 }
 /* section 1 */
 .main-title {
@@ -194,7 +261,6 @@
   letter-spacing: 0.04em;
   color: var(--color-iris);
   background-color: var(--color-cloud);
-  cursor: pointer;
 }
 
 .project-card-text {
