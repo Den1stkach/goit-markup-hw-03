@@ -20,7 +20,8 @@ h5,
 h6 {
   margin: 0;
 }
-ul {
+ul,
+ol {
   padding-left: 0;
   margin: 0;
 }
@@ -58,14 +59,9 @@ img {
 }
 .header-nav {
   display: flex;
+  margin-left: 156px;
 }
 
-.header-main {
-  width: 115px;
-  height: 24px;
-  left: 156px;
-  top: 24px;
-}
 .hero {
   margin-left: auto;
   margin-right: auto;
@@ -88,10 +84,18 @@ img {
 .address-list {
   gap: 40px;
 }
-/* header */
-.header-logo {
-  margin-right: 76px;
+.header-tel-list {
+  margin-right: 156px;
 }
+.header-link-item {
+  margin-left: 76px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-grey);
+}
+/* header */
 
 .header-logo,
 .footer-logo {
@@ -154,6 +158,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-grey);
+  padding: 24px 0;
 }
 .head-mail,
 .head-tel {
@@ -167,7 +172,6 @@ img {
 
 .hero {
   background-color: var(--color-grey);
-  text-align: center;
 }
 .hero-button {
   font-family: inherit;
@@ -177,6 +181,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-white);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 16px 32px;
+  margin-top: 48px;
 }
 .hero-logo {
   font-weight: 700;
@@ -184,10 +192,18 @@ img {
   line-height: 1.07;
   color: var(--color-white);
   letter-spacing: 0.02em;
+  max-width: 496px;
   text-align: center;
-  max-width: 495px;
+  margin: 0 auto;
 }
 /* section 1 */
+section {
+  padding: 120px 0;
+}
+.main {
+  display: flex;
+  gap: 8px;
+}
 .main-title {
   font-weight: 500;
   font-size: 20px;
@@ -202,6 +218,15 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-slate);
 }
+/* section 2 */
+.picture {
+  display: flex;
+  gap: 60px;
+}
+.team {
+  display: flex;
+  gap: 24px;
+}
 .subtitle-section {
   font-weight: 700;
   font-size: 36px;
@@ -210,6 +235,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-navy-blue);
+  margin-bottom: 72px;
 }
 .subject {
   font-weight: 700;
@@ -219,11 +245,11 @@ img {
   text-transform: capitalize;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
+  margin-bottom: 72px;
 }
 .footer-box {
   background-color: var(--color-navy-blue);
 }
-
 .name {
   font-weight: 500;
   font-size: 20px;
@@ -238,11 +264,26 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-slate);
 }
+.name-table {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+/* footer */
+
 .footer-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-cornflower);
+  background-color: var(--color-navy-blue);
+  max-width: 264px;
+}
+
+.footer-container {
+  width: 1440px;
+  height: 310px;
+
   background-color: var(--color-navy-blue);
 }
 .team-section {
