@@ -57,6 +57,7 @@ img {
   width: 1440px;
   height: 72px;
 }
+
 .header-nav {
   display: flex;
   margin-left: 156px;
@@ -96,6 +97,9 @@ img {
   color: var(--color-grey);
 }
 /* header */
+.header-main {
+  border-bottom: 1px solid var(--color-cornflower);
+}
 
 .header-logo,
 .footer-logo {
@@ -160,6 +164,7 @@ img {
   color: var(--color-grey);
   padding: 24px 0;
 }
+
 .head-mail,
 .head-tel {
   font-weight: 400;
@@ -219,6 +224,9 @@ section {
   color: var(--color-slate);
 }
 /* section 2 */
+.resourses {
+  padding-top: 0px;
+}
 .picture {
   display: flex;
   gap: 60px;
@@ -263,6 +271,7 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
+  margin-top: 8px;
 }
 .name-table {
   padding-top: 32px;
@@ -278,11 +287,12 @@ section {
   color: var(--color-cornflower);
   background-color: var(--color-navy-blue);
   max-width: 264px;
+  margin-top: 16px;
 }
 
 .footer-container {
-  width: 1440px;
   height: 310px;
+  padding-top: 100px;
 
   background-color: var(--color-navy-blue);
 }
@@ -293,15 +303,27 @@ section {
   background-color: var(--color-white);
 }
 /**------ portfolio */
+.filters-btn {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 72px;
+  align-items: center;
+  justify-content: center;
+}
+.project-card-list {
+  flex-basis: ((100% - 48px) /3);
+}
 .fil-btn {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  padding: 12px 24px;
   letter-spacing: 0.04em;
   color: var(--color-iris);
   background-color: var(--color-cloud);
+  border: 1px solid var(--color-cornflower);
+  border-radius: 4px;
 }
 
 .project-card-text {
@@ -310,6 +332,8 @@ section {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
+  margin-bottom: 8px;
+  margin-left: 16px;
 }
 .project-card-paragraph {
   font-weight: 400;
@@ -317,4 +341,20 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.project-card {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.card-content-block {
+  border: 1px solid;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: var(--color-cornflower);
+  border-top: 0px;
+}
+.project-card-paragraph {
+  margin-left: 16px;
 }
